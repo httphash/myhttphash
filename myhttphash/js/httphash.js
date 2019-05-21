@@ -2,7 +2,7 @@ window.sodium = {
     onload: function (sodium) {
 
       let server = 'https://httphash.org/';
-      let serveraccount = '02614bc4281358e8abc865076dec4d20f841fb7df923f503ef60385b42212f54';
+      let serveraccount = 'c348e59927d34bc5ac573e6da2973e8d2341c329d3d034d80d2c1e238919ca31';
       var mime = "text/plain";
 
       if($('.linkarea').attr('name')=="isqr"){
@@ -29,9 +29,9 @@ window.sodium = {
       footer = footer + '<a href="https://github.com/httphash"><img src="img/github.png" class="img-fluid" alt="GitHub"></a>';
       footer = footer + '<br><br><br><br>';
       footer = footer + '<a href="https://www.httphash.com"><b>&copy; 2019 the HTTPhashProject</b></a><br><br>';
-      footer = footer + '<a href="https://tronscan.org/#/address/TAXijsp4AkcWF4RscaVBfFvAKkwfKX3wzM"><img src="img/tron.png" class="img-fluid">&nbsp;&nbsp;TAXijsp4AkcWF4RscaVBfFvAKkwfKX3wzM</a><br><br>';
-      footer = footer + '<a href="https://etherscan.io/address/0x0626228ff69c278c6cbca42f13649965824cfa74"><img src="img/ethereum.png" class="img-fluid">&nbsp;&nbsp; 0x0626228ff69c278c6cbca42f13649965824cfa74</a><br><br>';
-      footer = footer + '<a href="https://www.blockchain.com/de/btc/address/19RjitR2aBYszEQXRqiMYcrj5TbMd8LQyp"><img src="img/bitcoin.png" class="img-fluid">&nbsp;&nbsp;19RjitR2aBYszEQXRqiMYcrj5TbMd8LQyp</a><br>';
+      footer = footer + '<a href="https://tronscan.org/#/address/TEULp5WpCc8sm6BjBxyv9YNc69HATYwvTK"><img src="img/tron.png" class="img-fluid">&nbsp;&nbsp;TEULp5WpCc8sm6BjBxyv9YNc69HATYwvTK</a><br><br>';
+      footer = footer + '<a href="https://etherscan.io/address/0x31631607d974db708664bf2257a5f75bdffe1958"><img src="img/ethereum.png" class="img-fluid">&nbsp;&nbsp; 0x31631607d974db708664bf2257a5f75bdffe1958</a><br><br>';
+      footer = footer + '<a href="https://www.blockchain.com/de/btc/address/13L7eCLsPo8CR9QkJS4iYSc4a3jp5RAMuW"><img src="img/bitcoin.png" class="img-fluid">&nbsp;&nbsp;13L7eCLsPo8CR9QkJS4iYSc4a3jp5RAMuW</a><br>';
 
       function generateNewAccount(){
 
