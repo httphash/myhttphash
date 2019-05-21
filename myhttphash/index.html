@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/httphash.css">
+    <title>HTTPhash Wallet</title>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="index.html" title="Create account"><img src="img/logo.png" class="img-fluid" alt="HTTPhash"></a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 accounter text-center">
+        <h3 class="text-center">Create new account</h3><br>
+        <button type="button" class="btn btn-success btn-lg klicker" title="Push this button to create new account">&raquo; CREATE NEW ACCOUNT</button>
+        <br><br>
+        Your private keys cannot be recovered, keep them safe and secure!<br><b>Never give away your private keys!!!</b><br><br>
+        Print this page and keep it safe so you don't lose your private key!
+        <div class="linie"></div>
+        <div class="row text-left">
+          <div class="col-lg-10">
+            <h3 class="text-left">1. Private key:</h3>
+            <div class="form-group">
+              <div id="HTTPhashprivatekey" class="formoutput">&nbsp;<br></div>
+              <small id="emailHelp" class="form-text text-muted">Your private keys cannot be recovered, keep them safe and secure! <b>Never give away your private keys!!!</b></small>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div id="qrcodesk"></div>
+          </div>
+        </div>
+        <div class="linie"></div>
+        <div class="row text-left">
+          <div class="col-lg-10">
+            <h3 class="text-left">2. HTTPhash Account Address:</h3>
+            <div class="form-group">
+              <div id="HTTPhashpublickey" class="formoutput">&nbsp;<br></div>
+              <small id="emailHelp" class="form-text text-muted">You can share your account address with the whole world! (If you like)</small>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div id="qrcodepk"></div>
+          </div>
+        </div>
+        <br><br><br>
+        <button type="button" class="btn btn-success btn-lg klicker" title="Push this button to create new account">&raquo; CREATE NEW ACCOUNT</button>
+        <br><br><br>
+      </div>
+    </div>
+  </div>
+  <div class="footer"></div>
+  <div class="linkarea" name="isqr"></div>
+  <div class="messenger"><br><img src="img/loading.gif" class="img-fluid" alt="Loading"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sodium.js" async></script>
+    <script src="js/qrcode.js"></script>
+    <script src="js/httphash.js"></script>
+  </body>
+</html>

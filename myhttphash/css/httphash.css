@@ -1,0 +1,22 @@
+body, html{ height:100%; }
+body{ padding:25px;font-size:1.1em;background:#f2f2f2; }
+a:link, a:active, a:visited, a:hover{ color:#005944; }
+h1, h2, h3, h4{ color:#005944; text-transform:uppercase; }
+.linie{ margin-top:25px;margin-bottom:25px;border-bottom:1px dashed #d0d0d0; }
+.linie2{ margin-top:25px;margin-bottom:25px;border-bottom:1px dashed #f2f2f2; }
+.accounter{ padding:25px; background:#fff; overflow:auto;font-size:1.3em; }
+.transactioner{ padding:25px; background:#d0d0d0; }
+.formoutput, #accounthash, #privatekey, #txid, #txnonce, #txskey{ text-align:center; font-size:1em; padding:10px;background:#f2f2f2;border:1px solid #d0d0d0;overflow-wrap: break-word;word-wrap: break-word; }
+#qrcodesk, #qrcodepk{ width:80px; height:80px; padding:0px; margin-top:15px; margin-bottom:35px; display:block; }
+.linkarea{ position:fixed; top:10px; left:10px; }
+.linkarea a{ display:inline-block; padding:15px; background:#005944; border:3px solid #fff; border-radius:25px;margin-bottom:10px; }
+#serverresponse{ padding-top:25px; text-align:left; font-size:0.9em; }
+.transaction{ font-size:0.8em; overflow-wrap: break-word;word-wrap: break-word;padding:15px;border-bottom:1px dotted #d0d0d0; }
+div.transaction:nth-child(odd){ background:#f2f2f2; }
+#progressBar{ display:none; }
+.messenger{ width:100%;height:100%;background:url("../img/updatebg.png");position:fixed;left:0px;top:0px;text-align:center;display:none;z-index:999999;}
+.footer{ background:#005944;color:#fff;padding:50px;text-align:center;border-top:50px solid #f2f2f2; }
+.footer a:link, .footer a:active, .footer a:visited, .footer a:hover{ color:#fff; }
+@media (max-width: 991.98px) { .formoutput{ font-size:0.8em;overflow:visible; }
+@media (max-width: 767.98px) { .formoutput{ font-size:0.7em;overflow:visible;  }
+@media (max-width: 575.98px) { .formoutput{ font-size:0.6em;overflow:visible;  }

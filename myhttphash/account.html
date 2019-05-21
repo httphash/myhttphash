@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/httphash.css">
+    <title>HTTPhash Wallet</title>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="index.html" title="Create account"><img src="img/logo.png" class="img-fluid" alt="HTTPhash"></a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 accounter text-center">
+        <h3 class="text-center">Display account information</h3><br>
+        <div class="form-group">
+          <input type="text" class="form-control" id="accounthash" placeholder="Enter account address">
+          <small class="form-text text-muted">To get information from the blockchain you need to be connected to the network.</small>
+        </div>
+        <div id="serverresponse"></div>
+        <br><br>
+        <button type="button" class="btn btn-success btn-lg accountinfo" title="Display account info">&raquo; View Info</button>
+        <br><br><br>
+      </div>
+    </div>
+  </div>
+  <div class="footer"></div>
+  <div class="linkarea" name="noqr"></div>
+  <div class="messenger"><br><img src="img/loading.gif" class="img-fluid" alt="Loading"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sodium.js" async></script>
+    <script src="js/qrcode.js"></script>
+    <script src="js/httphash.js"></script>
+  </body>
+</html>

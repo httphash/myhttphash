@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/httphash.css">
+    <title>HTTPhash Wallet</title>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="index.html" title="Create account"><img src="img/logo.png" class="img-fluid" alt="HTTPhash"></a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 accounter text-center">
+        <h3 class="text-center">Create encrypted transaction</h3><br>
+        <div class="form-group">
+          <input type="text" class="form-control" id="privatekey" placeholder="Enter private key">
+          <small class="form-text text-muted">Enter private key to encrypt any file.</small>
+        </div>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="inputFile">
+          <label class="custom-file-label" for="customFile">Choose file for encryption</label>
+          <progress id="progressBar" value="100" max="100" style="width:100%;"></progress>
+        </div>
+        <br><br>
+        <div class="linie"></div>
+        <div id="serverresponse">load</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"></div>
+  <div class="linkarea" name="noqr"></div>
+  <div class="messenger"><br><img src="img/loading.gif" class="img-fluid" alt="Loading"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sodium.js" async></script>
+    <script src="js/qrcode.js"></script>
+    <script src="js/httphash.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/httphash.css">
+    <title>HTTPhash Wallet</title>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="index.html" title="Create account"><img src="img/logo.png" class="img-fluid" alt="HTTPhash"></a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row accounter">
+      <div class="col-12">
+        <h3 class="text-center">Fetch data from server</h3><br>
+      </div>
+      <div class="col-10 text-center">
+        <div class="form-group">
+          <input type="text" class="form-control" id="txid" placeholder="Enter transaction id to fetch txdata from server">
+          <small class="form-text text-muted">You need to be connected to the network to fetch data from server</small>
+        </div>
+      </div>
+      <div class="col-2 text-center">
+        <button type="button" class="btn btn-success btn-lg fetchdata form-control" title="Fetch">&raquo; GO</button>
+      </div>
+    </div>
+    <div class="row accounter">
+      <div class="col-12 text-center">
+        <div class="linie"></div>
+        <h3 class="text-center">Decryption</h3>
+        <div id="serverresponse">
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="txnonce" placeholder="Enter nonce">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="txskey" placeholder="Enter your private key">
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-12">
+<textarea class="form-control" name="txdata" id="txdata" rows="10" placeholder="Enter encrypted data"></textarea>
+<br><br><button type="button" class="btn btn-success btn-lg decryptor" title="Decrypt">&raquo; Decrypt data</button><br><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"></div>
+  <div class="linkarea" name="noqr"></div>
+  <div class="messenger"><br><img src="img/loading.gif" class="img-fluid" alt="Loading"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/sodium.js" async></script>
+    <script src="js/qrcode.js"></script>
+    <script src="js/httphash.js"></script>
+  </body>
+</html>
